@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
 html {
-	font-size: 62.5%;
+	font-size: 85%;
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding: 0;
@@ -27,22 +27,24 @@ html {
 .header-icon {
 	height: 150px;
 	width: 150px;
+	color: #1C153DEE;
 }
 
 header {
 	position: relative;
-	height: 520px;
-	min-height: 450px;
+	height: 80%;
+	min-height: 80%;
 	width: 100%;
-	background-size: cover;
-	-webkit-background-size: cover;
+	//background-size: cover;
+	//-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background-color: #E41951;
+	background-image: url(./maze-bg.png);
+	//-webkit-background-size: cover;
+	//-moz-background-size: cover;
+	//-o-background-size: cover;
+	//background-size: cover;
 	padding-top: 150px;
 	padding-bottom: 0;
 }
@@ -51,6 +53,12 @@ header .nav {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+}
+a.nav-link, a.active.nav-link {
+	color: white;
+}
+a.nav-link:hover {
+	color: #00DC84;
 }
 
 .github-corner:hover .octo-arm {
@@ -95,18 +103,23 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	color: #1C153D;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
 }
 
+.title-container {
+	font-size: 1.5rem;
+	color: #1C153D;
+}
+
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid white;
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
+	background-color: white;
 	height: 25px;
 }
 
@@ -231,7 +244,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background-color: #CD1648;
 }
 
 .experience-icon {
@@ -245,7 +258,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #1C153D !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -256,7 +269,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: #00DC84 !important;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -276,7 +289,7 @@ header h1 {
 }
 
 .modal-inside .modal-content {
-	background: white;
+	background: #e9e9e9;
 }
 
 .bars {
@@ -352,8 +365,10 @@ header h1 {
 	color: black !important;
 }
 
+/* PROJECTS */
+
 #portfolio {
-	background: #efe1bd;
+	background: #e9e9e9;
 	padding-bottom: 5%;
 }
 
@@ -379,6 +394,7 @@ header h1 {
 	font-size: 1.5rem;
 }
 
+
 @media (min-width: 576px) {
 	.portfolio .closeButtonResponsive {
 		display: block;
@@ -389,7 +405,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #1C153D;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -414,7 +430,7 @@ header h1 {
 }
 
 footer {
-	background: #1F1F1F;
+	background-color: #1C153D;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;

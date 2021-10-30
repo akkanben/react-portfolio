@@ -7,11 +7,11 @@ body[data-theme="dark"] {
    }
 
    .title-styles {
-      color: white;
+      color: #E41951;
    }
 
    .header-icon {
-      color: #3C342C;
+	  color: #E41951;
       opacity: 0.8;
    }
 
@@ -28,19 +28,23 @@ body[data-theme="dark"] {
    }
 
    .project-date {
-      background-color: #918e97;
+      background-color: #130E2A;
       color: white;
    }
 
    header {
-      background-color: #494949;
+      background-color: #1C153D;
+	  background-image: url(../../maze-bg.png); 
       h1 {
-         color: white;
+         color: #E41951;
       }
    }
 
+   .title-container {
+	   color: #E41951;
+   }
    #about {
-      background-color: #7f7f7f;
+      background-color: #130E2A;
       h1 span {
          color: white;
       }
@@ -54,21 +58,22 @@ body[data-theme="dark"] {
    }
 
    #portfolio {
-      background: #5b5b5b;
+      background-color: #130E2A;
       .section-title {
          color: white !important;
       }
       .foto div {
-         background: #6d6d6d;
+         background: #1C153D;
       }
       .project-title-settings {
-         color: white;
+         color: #00DC84;
       }
    }
 
    #resume {
       filter: brightness(80%);
-      background: #5b5b5b;
+      background-color: #1C153D;
+	  background-image: url(../../maze-bg.png); 
       .section-title {
          color: white !important;
       }
@@ -104,4 +109,9 @@ body[data-theme="dark"] {
    .close-icon {
       color: white;
    }
+footer skills {
+	background-color: #E41951;
 }
+}
+
+
