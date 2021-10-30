@@ -19,7 +19,7 @@
           "images/portfolio/mini-arcade/p2.jpg",
           "images/portfolio/mini-arcade/p3.jpg"
         ],
-        "url": "",
+        "url": "https://github.com/OvercastGames/mini-arcade",
         "technologies": [
           {
             "class": "devicon-javascript-plain",
@@ -38,13 +38,13 @@
       {
         "title": "Horned Beasts",
         "startDate": "2021",
-        "description": "React Project for sorting beasts by text in their description and/or by horn number.",
+        "description": "React Project for sorting beast cards by text in their description and/or by horn number.",
         "images": [
           "images/portfolio/horned-beasts/p1.jpg",
           "images/portfolio/horned-beasts/p2.jpg",
           "images/portfolio/horned-beasts/p3.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/akkanben/horned-beasts",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -68,7 +68,7 @@
           "images/portfolio/salmon-cookies/p1.jpg",
           "images/portfolio/salmon-cookies/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/akkanben/cookie-stand",
         "technologies": [
   {
             "class": "devicon-javascript-plain",
