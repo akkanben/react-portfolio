@@ -16,7 +16,8 @@
         "description": "Mini Arcade is a tiny video game arcade experience with retro fun. This project was designed to be expanded on and one of the goals of the code base was to be able to make it easy to add more games. The arcade machine currently features Snake with plans for more choices coming in the future.",
         "images": [
           "images/portfolio/mini-arcade/p1.png",
-          "images/portfolio/mini-arcade/p2.jpg"
+          "images/portfolio/mini-arcade/p2.jpg",
+          "images/portfolio/mini-arcade/p3.jpg"
         ],
         "url": "",
         "technologies": [
@@ -40,7 +41,8 @@
         "description": "React Project for sorting beasts by text in their description and/or by horn number.",
         "images": [
           "images/portfolio/horned-beasts/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/horned-beasts/p2.jpg",
+          "images/portfolio/horned-beasts/p3.jpg"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -61,10 +63,10 @@
       {
         "title": "Salmon Cookies",
         "startDate": "2021",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "I designed this website to serve for a home page for a made up cookie company specializing in salmon flavored cookies. In the fiction Pat has also asked me to also create a sales page that renders the days sales in their 5 stores around the globe. The form has an input option for adding new locations or updating existing locations.",
         "images": [
           "images/portfolio/salmon-cookies/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/salmon-cookies/p2.jpg"
         ],
         "url": "https://github.com",
         "technologies": [
