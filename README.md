@@ -1,4 +1,4 @@
-#Portfolio
+# Portfolio
 
 This portfolio is built off of the [Code Fellows CRA Template: Simple React Portfolio Starter](https://www.npmjs.com/package/cra-template-react-portfolio). The profile was customized to match myself and most of the icons and colors were adapted.
 
