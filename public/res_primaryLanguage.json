@@ -11,6 +11,94 @@
     },
     "projects": [
       {
+        "title": "SDL2 Demos",
+        "startDate": "2022",
+        "description": "SDL2 is a graphics library written in C. I built a series of demos in C++ to explore how this library works. Demos include basic keyboard and mouse events, rendering and image to a surface, rendering shapes, and a class to handle sprites and animated sprites. ",
+        "images": [
+          "images/portfolio/SDL2-Demos/events.gif",
+          "images/portfolio/SDL2-Demos/surface.gif",
+          "images/portfolio/SDL2-Demos/renderer.gif",
+          "images/portfolio/SDL2-Demos/sprite.gif",
+          "images/portfolio/SDL2-Demos/animated-sprite.gif",
+          "images/portfolio/SDL2-Demos/font.gif"
+        ],
+        "url": "https://github.com/akkanben/sdl2-demos",
+        "technologies": [
+          {
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
+          },
+          {
+            "class": "devicon-c-plain",
+            "name": "C"
+          }
+        ]
+      },
+	  {
+        "title": "Code Clicker",
+        "startDate": "2022",
+        "description": "Code Clicker is a fun idle game with a coding theme. Users click the keyboard to generate currency that can be used to increase their lines-per-second. Inspired by Cookie Clicker. Code Clicker was built with Android Studio and features Google's Room SQLite database, SoundPool, and the Android Animation API.",
+        "images": [
+          "images/portfolio/code-clicker/p1.jpg",
+          "images/portfolio/code-clicker/p2.jpg"
+        ],
+        "url": "https://github.com/akkanben/sdl2-demos",
+        "technologies": [
+          {
+            "class": "devicon-android-plain",
+            "name": "Android"
+          }
+        ]
+      },
+	  {
+        "title": "TaskMaster",
+        "startDate": "2022",
+        "description": "TaskMaster is an Android task managing application. Task Master features a homepage that lists all tasks, a task detail activity that includes a text-to-speech button, and a settings activity for filtering the category of task. TaskMaster stores user made tasks in an AWS Amplify database. New tasks can be created directly in the app or anywhere on the device via an image with the Android sharing menu. Accounts are controlled with Amplify Auth and the application features a sign up, verification, log in and log out activities.",
+        "images": [
+          "images/portfolio/taskmaster/p1.jpg",
+          "images/portfolio/taskmaster/p2.jpg",
+          "images/portfolio/taskmaster/p3.jpg",
+          "images/portfolio/taskmaster/p4.jpg",
+          "images/portfolio/taskmaster/p5.jpg"
+        ],
+        "url": "https://github.com/akkanben/sdl2-demos",
+        "technologies": [
+          {
+            "class": "devicon-android-plain",
+            "name": "Android"
+          }
+        ]
+      },
+      {
+        "title": "Stanza",
+        "startDate": "2022",
+        "description": "Stanza is a classic internet forum built with Spring MVC. Stanza features user accounts via Spring Security, admin accounts can delete posts/threads as well as add/remove admin rights. User accounts can create new threads and make posts on existing threads. Users have profile pages that display recent posts as well as allow for profile editing and avatar selection.",
+        "images": [
+          "images/portfolio/stanza/p1.jpg",
+          "images/portfolio/stanza/p2.jpg",
+          "images/portfolio/stanza/p3.jpg"
+        ],
+        "url": "https://stanza-postgresql.herokuapp.com/general",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-spring-plain",
+            "name": "Spring"
+          },
+          {
+            "class": "devicon-gradle-plain",
+            "name": "Gradle"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+          }
+        ]
+      },
+      {
         "title": "Mini Arcade",
         "startDate": "2021",
         "description": "Mini Arcade is a tiny video game arcade experience with retro fun. This project was designed to be expanded on and one of the goals of the code base was to be able to make it easy to add more games. The arcade machine currently features Snake with plans for more choices coming in the future.",
@@ -86,6 +174,26 @@
       }
     ],
     "experience": [
+      {
+        "company": "Code Fellows",
+        "title": "Teaching Assistant & Tutor",
+        "years": "05.2022 - Present",
+        "mainTech": [
+          "Teaching"
+        ],
+        "technologies": [
+          "Java",
+          "Spring MVC",
+          "PostgreSQL",
+          "Mongo",
+          "React",
+		  "Heroku",
+		  "Netlify",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
       {
         "company": "Paint the Town Ceramics Painting Studio",
         "title": "Store Manager",
